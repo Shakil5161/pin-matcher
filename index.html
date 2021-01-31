@@ -40,13 +40,12 @@
                                 <div class="button">3</div>
                             </div>
                             <div class="calc-button-row">
-                                <div class="button">00</div>
+                                <div class="button">C</div>
                                 <div class="button">0</div>
-                                <div class="button">CLR</div>
+                                <div class="button">AC</div>
                             </div>
                             <div>
                                 <button onclick="submit()" type="submit" class="submit-btn">Submit</button>
-                                
                             </div>
                         </div>
                     </div>
@@ -76,8 +75,10 @@
                     if (inputDigit == 'AC') {
                         document.getElementById('digit-field').value = '';
                     }
-                    else {
-
+                    if (inputDigit == 'C') {
+                        const result = document.getElementById('digit-field').value / 10;
+                        const finalResult = parseInt(result);
+                        document.getElementById('digit-field').value = finalResult;
                     }
                 }
                 else {
