@@ -7,6 +7,6 @@
 ![](./3.png)
 ## 🤘 voila!! it worked
 ![](./5.png)
-## 🦉 For live testing clink this [pin-matcher](https://shakil5161.github.io/pin-matcher/)<br>
+## 🦉 For live testing click this [pin-matcher](https://shakil5161.github.io/pin-matcher/)<br>
 ### ThakYou 👍
 
